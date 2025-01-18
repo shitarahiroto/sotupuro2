@@ -395,4 +395,20 @@ jQuery(document).on('ready post-load', easy_fancybox_handler );
 
 
 
-<a id="scrollUp" href="https://www.primestudio-yl.com/schedule/wakabaschedule#top" title="Scroll to top" style="display: none; position: fixed; z-index: 2147483647;">Scroll to top</a><div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap" class="fancybox-ie"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body></html>
+<a id="scrollUp" href="https://www.primestudio-yl.com/schedule/wakabaschedule#top" title="Scroll to top" style="display: none; position: fixed; z-index: 2147483647;">Scroll to top</a><div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap" class="fancybox-ie"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div>
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "b3099b65-1072-4472-ac24-28afd94af129", // The ID of this integration.
+    region: "jp-tok", // The region your integration is hosted in.
+    serviceInstanceID: "4ad6c410-c727-4ccc-9bb5-945ce0320248", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body></html>
